@@ -16,6 +16,26 @@ body {
     width: 100vw;
     height: 100vh;
     scroll-snap-align: start;
-    padding: 100.001px;
+}
+
+#home table {
+    width: 100vw;
+    height: 100vh;
     box-sizing: border-box;
+    border-spacing: 0;
+    text-align: center;
+    background-color: #222222;
+    color: white;
+    table-layout: fixed;
+}
+
+#home table td {
+    opacity: 0.42;
+    background-size: cover;
+    transition: opacity 0.321s;
+}
+
+#home table td:hover {
+    opacity: 1;
+    
 }
