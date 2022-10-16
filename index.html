@@ -3,13 +3,16 @@
     <head>
         <title>Student Government - Chinese School at Chapel Hill</title>
         <link rel="stylesheet" href="style.css" />
+        <script>
+            function goLink(href) { var a = document.createElement("a"); a.href = href; a.click(); }
+        </script>
     </head>
     <body>
         <div id="scroller">
         <div class="section" id="home">
             <table>
                 <tr>
-                    <td style="background-image: url('image/wulong.jpg');">
+                    <td onclick="goLink('#DanceCrew');" style="background-image: url('image/wulong.jpg');">
                         Dance Crew
                     </td>
                     <td>
@@ -34,7 +37,7 @@
                 </tr>
             </table>
         </div>
-        <div class="section" style="background-color: darkblue;"></div>
+        <div class="section" id="DanceCrew"></div>
         </div>
     </body>
 </html>
