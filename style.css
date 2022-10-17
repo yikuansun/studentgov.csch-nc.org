@@ -48,7 +48,7 @@ body {
 .textInfo {
     height: 100vh;
     width: 50vw;
-    background-color: hsla(0deg, 100%, 25%, 69%);
+    background-color: hsla(0deg, 100%, 16%, 69%);
     position: relative;
     color: white;
 }
