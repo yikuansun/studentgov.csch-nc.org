@@ -17,6 +17,7 @@ body {
     height: 100vh;
     scroll-snap-align: start;
     background-size: cover;
+    background-position: center;
 }
 
 #home table {
@@ -33,6 +34,7 @@ body {
 #home table td {
     opacity: 0.42;
     background-size: cover;
+    background-position: center;
     transition: opacity 0.321s;
 }
 
