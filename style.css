@@ -91,6 +91,14 @@ a:hover {
     .textInfo {
         width: 100%;
     }
+    
+    
+    #home table td {
+        display: block;
+        width: 100%;
+        height: 50%;
+        line-height: calc(100vh / 6);
+    }
 }
 
 ::selection {
