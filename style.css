@@ -104,3 +104,19 @@ a:hover {
 ::selection {
     background-color: rgba(0, 0, 0, 0.42);
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #484848;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkgrey;
+}
